@@ -3,9 +3,6 @@ import java.util.Scanner;
 public class Main {
 	public static void main(String[] args) {
 		System.out.println("Emoji Fruit Picker");
-		System.out.println("Apple 🍎");
-		System.out.println("Banana 🍌");
-		System.out.println("Cherry 🍒");
 		System.out.println("Enter a fruit emoji:");
 		Scanner sc = new Scanner(System.in);
 		String fruit = sc.nextLine();
