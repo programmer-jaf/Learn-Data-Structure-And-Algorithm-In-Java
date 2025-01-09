@@ -12,5 +12,6 @@ public class Main {
 			factorial *=i;
 		}
 		System.out.println("The factorial of "+fact+" is "+factorial);
+		sc.close();
 	}
 }
