@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// GFG Link --> https://www.geeksforgeeks.org/problems/check-if-an-array-is-sorted0701/1
 public class isArraySorted {
   static boolean isSorted(int[] arr) {
     for (int i = 0; i < arr.length - 1; i++) {

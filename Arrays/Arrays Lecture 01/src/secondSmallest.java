@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// GFG Link --> https://www.geeksforgeeks.org/problems/find-the-smallest-and-second-smallest-element-in-an-array3226/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card
 public class secondSmallest {
   static int findSmallest(int[] arr){
     int smallest = Integer.MAX_VALUE;
