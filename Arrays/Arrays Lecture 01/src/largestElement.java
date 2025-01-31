@@ -1,5 +1,6 @@
 import java.util.Scanner;
-
+// GFG Link --> https://www.geeksforgeeks.org/problems/largest-element-in-array4009/0
+// Naukri Link --> https://www.naukri.com/code360/problems/largest-element-in-the-array-largest-element-in-the-array_5026279
 public class largestElement {
   static int findLargest(int[] arr){
     int largest =Integer.MIN_VALUE;

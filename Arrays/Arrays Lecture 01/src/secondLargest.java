@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// GFG Link --> https://www.geeksforgeeks.org/problems/second-largest3735/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card
 public class secondLargest {
   static int findLargest(int[] arr){
     int largest = Integer.MIN_VALUE;
