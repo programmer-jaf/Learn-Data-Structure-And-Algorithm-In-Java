@@ -1,16 +1,17 @@
 import java.util.Scanner;
 
 public class Main {
-  static boolean isAmstrongNumber(int num){
+  static boolean isAmstrongNumber(int num) {
     int originalNumber = num;
-    int sum =0;
-    while (num>0){
-      int lastDigit = num%10;
-      sum+=(lastDigit*lastDigit*lastDigit);
-      num/=10;
+    int sum = 0;
+    while (num > 0) {
+      int lastDigit = num % 10;
+      sum += (lastDigit * lastDigit * lastDigit);
+      num /= 10;
     }
-    return sum==originalNumber;
+    return sum == originalNumber;
   }
+
   public static void main(String[] args) {
     System.out.println("Armstrong Number 💪");
     Scanner scanner = new Scanner(System.in);

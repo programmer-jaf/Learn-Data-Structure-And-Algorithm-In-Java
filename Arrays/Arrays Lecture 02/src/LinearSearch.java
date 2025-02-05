@@ -1,4 +1,5 @@
 //* GFG Link --> https://www.geeksforgeeks.org/problems/search-an-element-in-an-array-1587115621/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card
+
 import java.util.Scanner;
 
 public class LinearSearch {
@@ -10,6 +11,7 @@ public class LinearSearch {
     }
     return -1;
   }
+
   public static void main(String[] args) {
     System.out.println("Linear Search in array");
     Scanner sc = new Scanner(System.in);

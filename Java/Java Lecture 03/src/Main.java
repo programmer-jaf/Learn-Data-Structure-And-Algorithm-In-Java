@@ -12,7 +12,7 @@ public class Main {
 //  String
     String milkBottle = "milk bottle 🍼";
     System.out.println(milkBottle);
-  // Rules while creating variables
+    // Rules while creating variables
   /*
     1️⃣ Variables name must start with a letter or underscore(_)
     2️⃣ Variables name must not start with a number

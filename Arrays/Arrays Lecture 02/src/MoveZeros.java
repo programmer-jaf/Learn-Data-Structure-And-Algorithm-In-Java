@@ -1,5 +1,6 @@
 // Leetcode Link --> https://leetcode.com/problems/move-zeroes/submissions/1528535803/
 // GFG Link --> https://www.geeksforgeeks.org/problems/move-all-zeroes-to-end-of-array0751/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card
+
 import java.util.Scanner;
 
 public class MoveZeros {
@@ -17,6 +18,7 @@ public class MoveZeros {
       }
     }
   }
+
   public static void main(String[] args) {
     System.out.println("Move zeros to the end of an array");
     Scanner sc = new Scanner(System.in);

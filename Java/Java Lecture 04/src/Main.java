@@ -27,8 +27,8 @@ public class Main {
     System.out.println(floatValue);
 //  double
 //  ! For double, it's not mandatory to add d at the end of the number
-  double doubleValue = 21.165415665;
-  System.out.println(doubleValue);
+    double doubleValue = 21.165415665;
+    System.out.println(doubleValue);
 
 //  char
     char charValue = 'A';
@@ -37,6 +37,6 @@ public class Main {
 //  boolean
     boolean booleanValue = true;
     System.out.println(booleanValue);
-    
+
   }
 }

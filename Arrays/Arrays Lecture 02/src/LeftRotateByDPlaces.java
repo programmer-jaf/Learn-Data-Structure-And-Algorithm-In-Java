@@ -1,4 +1,5 @@
 // GFG Link --> https://www.geeksforgeeks.org/problems/rotate-array-by-n-elements-1587115621/1
+
 import java.util.Scanner;
 
 public class LeftRotateByDPlaces {
@@ -15,6 +16,7 @@ public class LeftRotateByDPlaces {
     // Reverse entire array
     reverse(arr, 0, n - 1);
   }
+
   // Helper function to reverse array from index start to end
   private static void reverse(int[] arr, int start, int end) {
     while (start < end) {
@@ -25,6 +27,7 @@ public class LeftRotateByDPlaces {
       end--;
     }
   }
+
   public static void main(String[] args) {
     System.out.println("left rotation of an array by d places");
     Scanner sc = new Scanner(System.in);

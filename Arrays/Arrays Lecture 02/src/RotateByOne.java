@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 // Nauki Link --> https://www.naukri.com/code360/problems/left-rotate-an-array-by-one_5026278?leftPanelTabValue=SUBMISSION
 public class RotateByOne {
 

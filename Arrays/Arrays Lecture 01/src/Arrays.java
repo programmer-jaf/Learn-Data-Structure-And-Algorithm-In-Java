@@ -7,12 +7,13 @@ public class Arrays {
     int[] shortArray;
 //  Way 02:
     int[] array = new int[10];
+    array[0] = 1254;
 //  traversing an array
-    for (int i = 0; i < array.length; i++) {
-      System.out.print(array[i]+" ");
+    for (int j : array) {
+      System.out.print(j + " ");
     }
 //  using for-each loop
-    for (int i : array){
+    for (int i : array) {
       System.out.println(i);
     }
   }
